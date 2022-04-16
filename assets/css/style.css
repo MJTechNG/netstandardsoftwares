@@ -127,7 +127,7 @@ a:focus {
 
 .section-btn:hover,
 .section-btn:focus {
-  background: #00f260; /* fallback for old browsers */
+  background: #f20049; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #0575e6,
@@ -348,7 +348,7 @@ section {
   -----------------------------------------*/
 
 #home {
-  background: url("../images/home-bg.jpg") no-repeat center center;
+  background: url("../images/bg-home.jpg") no-repeat center center;
   background-size: cover;
   vertical-align: middle;
   display: -webkit-box;
@@ -519,7 +519,7 @@ section {
 }
 
 #blog-header {
-  background: url("../images/blog-header-bg.jpg") no-repeat center center;
+  background: url("../images/bg-header.jpg") no-repeat center center;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
@@ -658,25 +658,19 @@ section {
 }
 
 /*---------------------------------------
-      CONTACTS             
+      announcementS             
   -----------------------------------------*/
 
-#contact {
-  background: #00f260; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0575e6,
-    #00f260
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0575e6,
-    #00f260
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#announcement {
+  background: #2c5c44; /* fallback for old browsers */
 }
 
-#contact .section-title h2 {
+#announcement .section-title h2 {
   color: #ffffff;
+}
+
+#announcement p {
+  color: white;
 }
 
 .google-map {
@@ -693,7 +687,7 @@ section {
   height: 300px;
 }
 
-#contact .form-control {
+#announcement .form-control {
   border: 0;
   border-radius: 5px;
   box-shadow: none;
@@ -704,16 +698,16 @@ section {
   padding-left: 8px;
 }
 
-#contact input,
-#contact select {
+#announcement input,
+#announcement select {
   height: 55px;
 }
 
-#contact select {
+#announcement select {
   color: rgba(20, 20, 20, 0.5);
 }
 
-#contact input[type="submit"] {
+#announcement input[type="submit"] {
   background: #ce3232;
   border-radius: 100px;
   color: #ffffff;
@@ -763,7 +757,7 @@ footer span,
 }
 
 .copyright-text p,
-.footer-bottom .phone-contact p {
+.footer-bottom .phone-announcement p {
   font-size: 14px;
 }
 
@@ -777,17 +771,17 @@ footer span,
   padding-top: 3em;
 }
 
-.footer-bottom .phone-contact,
+.footer-bottom .phone-announcement,
 .footer-bottom .social-icon {
   display: inline-block;
   vertical-align: top;
 }
 
-.footer-bottom .phone-contact {
+.footer-bottom .phone-announcement {
   margin-right: 40px;
 }
 
-.footer-bottom .phone-contact span {
+.footer-bottom .phone-announcement span {
   font-weight: 500;
   display: inline-block;
   margin-left: 10px;
@@ -1080,7 +1074,7 @@ footer span,
   }
 
   .footer-info p,
-  .footer-bottom .phone-contact {
+  .footer-bottom .phone-announcement {
     margin-right: 0;
   }
 }
